@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Your Favourite Music is </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li id="brand"><img src="images/logo.png" alt="Spotify"><span>Spotify</span></li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+
+        <div class="songList">
+            <h3>Best of NCS-No Copyright Sounds</h3>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="Covers/1.jpg" alt="1">
+                    <span class="songName">It's Always Blue</span>
+                    <span class="songListPlay"><span class="timeStamp">5:35<i id="0" class="fa-sharp songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Covers/2.jpg" alt="1">
+                    <span class="songName">Always Blue</span>
+                    <span class="songListPlay"><span class="timeStamp">5:35<i id="1" class="fa-sharp songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Covers/3.jpg" alt="1">
+                    <span class="songName">Blue</span>
+                    <span class="songListPlay"><span class="timeStamp">5:35<i id="2" class="fa-sharp songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Covers/4.jpg" alt="1">
+                    <span class="songName">ys Blue</span>
+                    <span class="songListPlay"><span class="timeStamp">5:35<i id="3" class="fa-sharp songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Covers/5.jpg" alt="1">
+                    <span class="songName">s Blue</span>
+                    <span class="songListPlay"><span class="timeStamp">5:35<i id="4" class="fa-sharp songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Covers/6.jpg" alt="1">
+                    <span class="songName">Always</span>
+                    <span class="songListPlay"><span class="timeStamp">5:35<i id="5" class="fa-sharp songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Covers/7.jpg" alt="1">
+                    <span class="songName">Always B</span>
+                    <span class="songListPlay"><span class="timeStamp">5:35<i id="6" class="fa-sharp songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Covers/8.jpg" alt="1">
+                    <span class="songName">ways Blue</span>
+                    <span class="songListPlay"><span class="timeStamp">5:35<i id="7" class="fa-sharp songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Covers/9.jpg" alt="1">
+                    <span class="songName">I Always Blue</span>
+                    <span class="songListPlay"><span class="timeStamp">5:35<i id="8" class="fa-sharp songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Covers/10.jpg" alt="1">
+                    <span class="songName">Al Blue</span>
+                    <span class="songListPlay"><span class="timeStamp">5:35<i id="9" class="fa-sharp songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-2x fa-backward-step" id="previous"></i>
+            <i class="fa-sharp fa-2x  fa-solid fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-2x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo"><img src="images/playing.gif" alt="playing" width="40px" id="gif"><span id="masterSongName">It's Always Blue: Singer_Name</span></div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/ebef61a93e.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

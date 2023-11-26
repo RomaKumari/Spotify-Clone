@@ -1,0 +1,115 @@
+            body {
+                background-color: antiquewhite;
+            }
+            
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            nav {
+                font-family: 'Ubuntu', sans-serif;
+            }
+            
+            nav ul li {
+                padding: 12px;
+            }
+            
+            nav ul {
+                display: flex;
+                list-style-type: none;
+                background-color: black;
+                height: 60px;
+                color: white;
+                align-items: center;
+            }
+            
+            #brand {
+                display: flex;
+                align-items: center;
+                font-size: 1.3em;
+            }
+            
+            #brand img {
+                width: 42px;
+                padding: 0 8px;
+            }
+            
+            .container {
+                min-height: 65vh;
+                background-color: black;
+                color: white;
+                font-family: 'Ubuntu', sans-serif;
+                display: flex;
+                margin: 25px auto;
+                width: 65vw;
+                border-radius: 15px;
+                padding: 30px;
+                background-image: url('images/bg.jpg');
+                background-size: cover;
+            }
+            
+            .bottom {
+                position: sticky;
+                background-color: black;
+                color: white;
+                height: 80px;
+                bottom: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            
+            #myProgressBar {
+                width: 80vw;
+                cursor: pointer;
+            }
+            
+            .icons {
+                margin: 8px;
+            }
+            
+            .icons i {
+                cursor: pointer;
+            }
+            
+            .songItemContainer {
+                margin: 20px 0;
+            }
+            
+            .songItem {
+                height: 35px;
+                display: flex;
+                background-color: white;
+                color: black;
+                margin: 12px 0;
+                justify-content: space-between;
+                align-items: center;
+                border-radius: 15px;
+            }
+            
+            .songItem img {
+                width: 30px;
+                margin: 0 15px;
+                border-radius: 50%;
+            }
+            
+            .timeStamp {
+                margin: 0 12px;
+            }
+            
+            .timeStamp i {
+                cursor: pointer;
+            }
+            
+            .songInfo {
+                position: absolute;
+                left: 10vw;
+                font-family: 'Ubuntu', sans-serif;
+            }
+            
+            .songInfo img {
+                opacity: 0;
+                transition: opacity 0.2s ease-in;
+            }
